@@ -1,0 +1,138 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("bgrk.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 15px;
+}
+
+.container-md {
+  max-width: 450px;
+  padding: 16px;
+  display: block;
+  background-color: rgb(170, 163, 163);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  font-family: Bell MT;
+  font-weight: bold;
+  color: #e91414;
+}
+
+.image {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: #d21111;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Add this media query at the end of the CSS file */
+@media screen and (max-width: 480px) {
+  /* Adjustments for smaller screens (smartphone sizes) */
+
+  /* Set the font size of h1 to be responsive */
+  h1 {
+    font-size: 40px;
+  }
+
+  /* Adjust the margin and font size of h2.section-menu */
+  h2.section-menu {
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  /* Center align the .card and adjust the margin */
+  .card {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Adjust the margin and padding of the .discover-btn and .menu-btn */
+  .discover-btn,
+  .menu-btn {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.6em;
+    font-size: 14px;
+  }
+
+  /* Adjust the height of header and section on smaller screens */
+  header {
+    height: calc(100% - 45px);
+  }
+
+  section {
+    top: 50px;
+  }
+
+  /* Adjust the margin of .navbar-brand and .nav-item */
+  .navbar-brand {
+    margin-left: -50px;
+  }
+
+  .nav-item {
+    margin: 0 2px;
+  }
+
+  /* Adjust the font-size and margin of .site-footer */
+  .site-footer {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  /* Adjust the width and height of #myBtn */
+  #myBtn {
+    width: 30px;
+    height: 30px;
+  }
+}

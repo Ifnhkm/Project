@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/Register.css">
+    <script type="module" src="/js/form.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="center-box" id="register-div">
+                    <h2>Register</h2>
+                    <p id="errMsg"></p>
+                    <input type="email" id="register-email" class="text-field" name="register-email" placeholder="Email"
+                        required /><br>
+                    <input type="password" id="register-password" class="text-field" name="register-password"
+                        placeholder="Password" required /><br>
+                    <button id="register-btn" class="btn btn-primary btn-style">Register</button><br>
+                    <br>
+                    <button id="log-btn" class="an-btn">Have an account? Login</button>
+                    <div id="result-box" style="display: none;">
+                        <h3 id="result"></h3><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-star {
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fas {
+    color: orange;
+  }
+
+  .far {
+    color: black;
+  }
+
+  .col{
+    margin-top: 40px;
+  }
+  
+  .desc{
+    font-family: Elephant;
+  }
+
+  .submitbutton{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .submitbutton:hover{
+    background-color:red;
+    color: #ffffff;
+  }

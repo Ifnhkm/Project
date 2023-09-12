@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title></title>
+    <link rel="stylesheet" href="/nicepage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="np://app.desktop.nicepage.com/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="np://app.desktop.nicepage.com/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.2.4, nicepage.com">
+
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/Cart.css">
+</head>
+
+        <header>
+          <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+              <div class="col ml-3">
+                <a class="navbar-brand" href="HomePage.html"><img src="/image/logork.png"width="60px"></a>
+              </div>
+                <button
+                  class="navbar-toggler d-lg-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsibleNavId"
+                  aria-controls="collapsibleNavId"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                  <ul class="navbar-nav nav-pills nav-fill me-auto mt-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="HomePage.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active bg-white" href="Cart.html" aria-current="page"
+                        >Cart <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="OrderStatus.html">Order Status</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Feedback.html">Feedback</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+      </header>
+
+<body class="u-body u-xl-mode" data-style="blank" data-posts=""
+    data-global-section-properties="{&quot;colorings&quot;:{&quot;light&quot;:[&quot;clean&quot;],&quot;colored&quot;:[&quot;clean&quot;],&quot;dark&quot;:[&quot;dark&quot;]}}"
+    data-source="blank" data-lang="en" data-page-sections-style="[{&quot;name&quot;:&quot;blank&quot;}]"
+    data-page-coloring-types="{&quot;light&quot;:[&quot;clean&quot;],&quot;colored&quot;:[&quot;clean&quot;],&quot;dark&quot;:[&quot;dark&quot;]}"
+    data-page-category="&quot;Basic&quot;">
+    <section class="u-align-center u-clearfix u-block-d741-1" custom-posts-hash="[]"
+        data-section-properties="{&quot;margin&quot;:&quot;none&quot;,&quot;stretch&quot;:true}" data-id="d741"
+        data-posts-content="[]" data-style="table-2" id="sec-851b" data-source="Sketch">
+        <div class="u-clearfix u-sheet u-valign-middle u-block-d741-2">
+            <div class="u-expanded-width u-table u-table-responsive u-block-d741-40">
+                <table class="u-table-entity u-block-d741-3">
+                    <colgroup>
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="25%">
+                    </colgroup>
+                    <thead class="u-black u-table-header u-block-d741-4">
+                        <tr style="height: 21px;">
+                            <th class="u-border-1 u-border-black u-table-cell u-block-d741-10">Food</th>
+                            <th class="u-border-1 u-border-black u-table-cell u-block-d741-11">Price</th>
+                            <th class="u-border-1 u-border-black u-table-cell u-block-d741-12">Quantity</th>
+                            <th class="u-border-1 u-border-black u-table-cell u-block-d741-34">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody class="u-table-body u-block-d741-9">
+                        <tr style="height: 75px;">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-13"><img src="/image/chicken-chop.png" alt="chicken Chop" width="100px"><p style="margin-left: 10px;">Chicken Chop</p></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-14">RM15.00</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-15"> 
+                                <input type="number" id="quantity" name="quantity" min="1" style="width: 40px;"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-30"><textarea class="form-control" style="width: 150px;" name="Comment" id="Comment" cols="1" rows="1"
+                                placeholder="Add Details"></textarea></td>
+                            <td><button style="border-radius: 10px;" onclick="document.getElementById('id01').style.display='block'">Remove</button></td>
+                        </tr>
+                        <tr style="height: 76px;">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-24"><img src="/image/burger.png" alt="Burger" width="100px"><p style="margin-left: 5px;">Chicken Burger</p></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-25">RM8.00</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-26"><input type="number" id="quantity" name="quantity" min="1" style="width: 40px;"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-31 " ><textarea class="form-control" style="width: 150px;" name="Comment" id="Comment" cols="1" rows="1"
+                                placeholder="Add Details"></textarea></td>
+                            <td><button style="border-radius: 10px;" onclick="document.getElementById('id01').style.display='block'">Remove</button></td>
+                        </tr>
+                        <tr style="height: 76px;">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-27"><img src="/image/orangejuice.png" alt="Orange Juice" width="100px"><p style="margin-left: 10px;">Orange Juice</p></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-28">RM2.00</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-29"><input type="number" id="quantity" name="quantity" min="1" style="width: 40px;"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-32"><textarea class="form-control" style="width: 150px;" name="Comment" id="Comment" cols="1" rows="1"
+                                placeholder="Add Details"></textarea></td>
+                            <td><button style="border-radius: 10px;" onclick="document.getElementById('id01').style.display='block'">Remove</button></td>
+                        </tr>
+                        <tr style="height: 76px;">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-16"><img src="/image/ice-cream.png" alt="Ice Cream" width="100px"><p style="margin-left: 20px;">Ice Cream</p></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-17">RM4.00</td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-18"><input type="number" id="quantity" name="quantity" min="1" style="width: 40px;"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-33"><textarea class="form-control" style="width: 150px;" name="Comment" id="Comment" cols="1" rows="1"
+                                placeholder="Add Details"></textarea></td>
+                            <td><button style="margin-right: 20px; border-radius: 10px;" onclick="document.getElementById('id01').style.display='block'">Remove</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="hidden u-table-footer u-block-d741-35">
+                        <tr class="hidden u-block-d741-41">
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-42"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-43"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-44"></td>
+                            <td class="u-border-1 u-border-grey-30 u-table-cell u-block-d741-45"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Remove Item</h1>
+                    <p>Are you sure you want to remove this item?</p>
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="deletebtn">Delete</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col pt-3">
+            <table>
+              <tr>
+                <td><b>TOTAL: </b></td>
+                <td> </td>
+                <td><b>RM29.00</b></td>
+              </tr>
+            </table>
+        </div>
+
+        <div class="popbutton">
+            <h2 style="padding-left: 50px;">Payment Method</h2>
+            <br>
+            <input style="margin-left: 15px;" type="submit" value="Pay at Counter" onclick="openPopup('Counter.html')" />
+            <input type="submit" value="QR Code" onclick="openPopup('qrcode.html')" />
+            <input type="submit" value="Online Banking" onclick="openPopup('onlinebanking.html')" />
+        </div>
+        
+        <style data-mode="XL" data-visited="true">
+            @media (min-width: 480px) {
+                .u-block-d741-2 {
+                    min-height: 464px;
+                }
+
+                .u-block-d741-40 {
+                    margin-top: 42px;
+                    margin-right: auto;
+                    margin-bottom: 42px;
+                    margin-left: 0;
+                }
+
+                .u-block-d741-4 {
+                    font-weight: 700;
+                    background-image: none;
+                }
+            }
+        </style>
+        <style data-mode="LG">
+            @media (max-width: 480px) and (min-width: 400px) {
+                .u-block-d741-2 {
+                    min-height: 464px;
+                }
+
+                .u-block-d741-40 {
+                    margin-top: 42px;
+                    margin-bottom: 42px;
+                }
+
+                .u-block-d741-3 {
+                    min-height: 100px;
+                }
+
+                .u-block-d741-4 {
+                    font-weight: 700;
+                    background-image: none;
+                }
+            }
+        </style>
+        <style data-mode="MD">
+            @media (max-width: 480px) and (min-width: 400px) {
+                .u-block-d741-2 {
+                    min-height: 464px;
+                }
+
+                .u-block-d741-40 {
+                    margin-top: 42px;
+                    margin-bottom: 42px;
+                }
+
+                .u-block-d741-3 {
+                    min-height: 100px;
+                }
+
+                .u-block-d741-4 {
+                    font-weight: 700;
+                    background-image: none;
+                }
+            }
+        </style>
+        <style data-mode="SM">
+            @media (max-width: 767px) and (min-width: 576px) {
+                .u-block-d741-2 {
+                    min-height: 464px;
+                }
+
+                .u-block-d741-40 {
+                    margin-top: 42px;
+                    margin-bottom: 42px;
+                }
+
+                .u-block-d741-3 {
+                    min-height: 100px;
+                }
+
+                .u-block-d741-4 {
+                    font-weight: 700;
+                    background-image: none;
+                }
+            }
+        </style>
+        <style data-mode="XS">
+            @media (max-width: 575px) {
+                .u-block-d741-2 {
+                    min-height: 464px;
+                }
+
+                .u-block-d741-40 {
+                    margin-top: 42px;
+                    margin-bottom: 42px;
+                }
+
+                .u-block-d741-3 {
+                    min-height: 100px;
+                }
+
+                .u-block-d741-4 {
+                    font-weight: 700;
+                    background-image: none;
+                }
+            }
+        </style>
+    </section>
+ <style> 
+ table{
+    border: 1px solid black;
+ }
+</style>
+
+    <a href="Menu.html" target="content_box"><button style="margin: 50px 0px 30px 15px;" type="button">Order more</button></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="go-up.png" alt="Back To Top" style="height: 30px; width: 30px;"></button>
+    <footer class = "site-footer"align="center">
+        <p>Copyright © 2022 Restorans Kita | ALL RIGHT RESERVED</p>
+        </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function openPopup(url) {
+                window.open(url, "_blank", "height=500,width=500");
+            }
+            // window.open(url, '_blank', 'height=500,width=500,top=centre,left=centre,toolbar=no');
+</script>
+
+<script>  // Get the button:
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+      </script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+crossorigin="anonymous"
+></script>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+crossorigin="anonymous"
+></script>
+<script src="https://kit.fontawesome.com/f039f0efa8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

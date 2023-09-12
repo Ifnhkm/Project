@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Menu Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/Menu.css" />
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+      <div class="col ml-3">
+        <a class="navbar-brand" href="/html/HomePage.html"><img src="/image/logork.png" width="60px"></a>
+      </div>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav nav-pills nav-fill me-auto mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/html/HomePage.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link active bg-white" href="/html/Menu.html" aria-current="page">Menu <span
+                class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/Cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/OrderStatus.html">Order Status</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/Feedback.html">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Category Nav-->
+    <div class="categorynavbar">
+      <p>CATEGORY</p>
+      <a href="#western">WESTERN</a> <a href="#nasi">NASI</a><a href="#eastern">EASTERN</a><a href="#burger">BURGER</a>
+      <a href="#desert">DESERT</a> <a href="#drink">DRINK</a>
+    </div>
+
+
+    <!-- Create the tab menu -->
+    <ul class="tab-menu">
+      <!-- Add the "data-tab" attribute to each tab menu item -->
+      <li class="active" data-tab="western" style="padding: 0%;">WESTERN</li>
+      <li data-tab="nasi">NASI</li>
+      <li data-tab="eastern">EASTERN</li>
+      <li data-tab="burger">BURGER</li>
+      <li data-tab="desert">DESERT</li>
+      <li data-tab="drink">DRINK</li>
+    </ul>
+
+    <!-- Create the tab content -->
+    <div class="tab-content active" id="western">
+
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/chicken-chop.png" alt="chicken chop">
+        <div class="description"> Chicken Chop<br>
+          RM 15.00 <br>
+        </div>
+      </div>
+      <!-- Create the second box -->
+      <div class="box"> <img src="/image/fries.png" alt="fries">
+        <div class="description"> Fries<br>
+          RM 5.00</div>
+      </div>
+
+      <!-- Create the third box -->
+      <div class="box"> <img src="/image/lamp-chop.png" alt="lamb chop">
+        <div class="description"> Lamb Chop<br>
+          RM 20.00</div>
+      </div>
+    </div>
+    <div class="tab-content" id="nasi">
+      <!-- Add content for the NASI tab here -->
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/nasi-goreng.png" alt="nasi goreng">
+        <div class="description"> Nasi Goreng Kita<br>
+          RM 5.00<br>
+        </div>
+      </div>
+
+      <!-- Create the second box -->
+      <div class="box"> <img src="/image/chickenrRice.jpg" alt="nasi ayam">
+        <div class="description"> Nasi Ayam <br>
+          RM 6.00 <br>
+        </div>
+      </div>
+
+      <!-- Create the third box -->
+      <div class="box"> <img src="/image/nasiayampenyet.jpg" alt="nasi ayam penyet">
+        <div class="description"> Nasi Ayam Penyet <br>
+          RM 6.00 <br>
+        </div>
+      </div>
+
+      <!-- Create the fourth box -->
+      <div class="box"> <img src="/image/nasikakwok.jpg" alt="nasi kakwok">
+        <div class="description"> Nasi Kakwok <br>
+          RM 5.00 <br>
+        </div>
+      </div>
+
+      <!-- Create the fifth box -->
+      <div class="box"> <img src="/image/nasilemakayam.png" alt="nasi lemak ayam">
+        <div class="description"> Nasi Lemak Ayam <br>
+          RM 6.00 <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="eastern">
+      <!-- Add content for the NASI tab here -->
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/YeeMee.png" alt="yee mee">
+        <div class="description"> Yee Mee<br>
+          RM 5.00<br>
+        </div>
+      </div>
+
+      <!-- Create the second box -->
+      <div class="box"> <img src="/image/dumpling.png" alt="dumpling">
+        <div class="description"> Dumpling <br>
+          RM 4.00 <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="burger">
+      <!-- Add content for the BURGER tab here -->
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/burger.png" alt="burger ayam special">
+        <div class="description"> Chicken Burger <br>
+          RM 8.00 <br>
+        </div>
+      </div>
+
+      <!-- Create the second box -->
+      <div class="box"> <img src="/image/Cheeseburgerwithfries.png" alt="burger">
+        <div class="description"> Cheeseburger with fries <br>
+          RM 12.00 <br>
+        </div>
+      </div>
+
+      <!-- Create the third box -->
+      <div class="box"> <img src="/image/burgerdaging.png" alt="burger daging special">
+        <div class="description"> Beef Burger Special <br>
+          RM 10.00 <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="desert">
+      <!-- Add content for the DESERT tab here -->
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/ice-cream.png" alt="ice cream">
+        <div class="description"> Ice Cream <br>
+          RM 4.00<br>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content" id="drink">
+      <!-- Add content for the DRINK tab here -->
+      <!-- Create the first box -->
+      <div class="box"> <img src="/image/orangejuice.png" alt="Orange Juice">
+        <div class="description"> Orange Juice <br>
+          RM 2.00 <br>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/MenuPage.js"></script>
+    <script src="/js/CategoryNavBar.js"></script>
+    </div>
+  </main>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/image/go-up.png" alt="Back To Top"
+      style="height: 30px; width: 30px;"></button>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script>
+  // Get the button:
+  let mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }</script>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f039f0efa8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

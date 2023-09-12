@@ -1,0 +1,260 @@
+body {
+  background-color: #cbe3d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.card-body {
+  background-color: #c7e3e8;
+}
+/* Navigation */
+.navbar {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #666;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(/image/bgpro.png);
+  background-size: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 25px;
+  color: #000000;
+  margin-top: 80px;
+}
+
+/* Our Specialty section */
+.section-specialty {
+  background-color: #eddada;
+  padding: 50px 0;
+}
+
+.section-menu {
+  margin-left: 130px;
+  margin-right: 110px;
+}
+
+.section-specialty h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.specialty-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.specialty-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.menu-btn {
+  margin-left: 130px;
+}
+
+.specialty-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.specialty-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.specialty-card:hover {
+  transform: translateY(-5px);
+}
+
+/* How To Order section */
+.section-order {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.section-order h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.order-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.order-step img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.order-step h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-step p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/* Order Now button */
+.order-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.order-btn button {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-btn button:hover {
+  background-color: #666;
+}
+
+/* Back to top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#myBtn img {
+  width: 20px;
+  height: 20px;
+}
+
+#myBtn:hover {
+  background-color: #666;
+}
+
+/* Custom styles for mobile devices */
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .section-specialty h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .specialty-card {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .specialty-card img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+  }
+
+  .specialty-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .specialty-card p {
+    font-size: 14px;
+  }
+
+  .section-order h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .order-step img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .order-step h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .order-step p {
+    font-size: 14px;
+  }
+
+  .order-btn button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
